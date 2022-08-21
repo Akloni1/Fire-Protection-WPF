@@ -1,0 +1,22 @@
+﻿<Page x:Class="FireWPF.Cost"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:FireWPF"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Cost">
+
+    <Grid Background="#e8e8e8">
+        <Label Content="Для расчета стоимости введите следующие данные: " HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="41" Width="550" FontSize="22"/>
+        <Label Content="Количество квадратных &#xD;&#xA;метров в помещении: " HorizontalAlignment="Left" Margin="23,59,0,0" VerticalAlignment="Top" Height="67" Width="235" FontSize="20"/>
+        <Label Content="Артикул товара:" HorizontalAlignment="Left" Margin="18,182,0,0" VerticalAlignment="Top" Height="42" Width="204" FontSize="20"/>
+        <TextBox x:Name="km" HorizontalAlignment="Left" Margin="23,131,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="199" Height="50" FontSize="34" TextChanged="TextBox_TextChanged"/>
+        <TextBox x:Name="id" HorizontalAlignment="Left" Margin="23,224,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="199" Height="50" FontSize="34" TextChanged="TextBox_TextChanged"/>
+        <Label Content="Стоимость: " HorizontalAlignment="Left" Margin="430,92,0,0" VerticalAlignment="Top" Height="34" Width="235" FontSize="20"/>
+        <TextBlock x:Name="ResCost" HorizontalAlignment="Left" Margin="430,131,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="47" Width="161" FontSize="34"/>
+        <Button Content="Расчитать стоимость" HorizontalAlignment="Left" Margin="23,294,0,0" VerticalAlignment="Top" Height="50" Width="199" FontSize="18" Click="Button_Cost" />
+
+    </Grid>
+</Page>

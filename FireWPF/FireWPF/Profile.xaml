@@ -1,0 +1,24 @@
+﻿<Page x:Class="FireWPF.Profile"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:FireWPF"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Profile">
+
+    <Grid Background="#e8e8e8">
+        <TextBlock x:Name="FirstName" HorizontalAlignment="Center" Margin="0,15,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="48" Width="318" FontSize="24"/>
+        <Label Content="Ваша фамилия:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="45" Width="209" FontSize="24"/>
+        <TextBlock x:Name="LastName" HorizontalAlignment="Center" Margin="0,87,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="48" Width="318" FontSize="24"/>
+        <Label Content="Ваше имя:" HorizontalAlignment="Left" Margin="10,82,0,0" VerticalAlignment="Top" Height="45" Width="209" FontSize="24"/>
+        <TextBlock x:Name="MidName" HorizontalAlignment="Center" Margin="0,161,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="48" Width="318" FontSize="24"/>
+        <Label Content="Ваше очество:" HorizontalAlignment="Left" Margin="10,156,0,0" VerticalAlignment="Top" Height="46" Width="209" FontSize="24"/>
+        <TextBlock x:Name="Login" HorizontalAlignment="Center" Margin="0,231,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="48" Width="318" FontSize="24"/>
+        <Label Content="Ваш логин:" HorizontalAlignment="Left" Margin="10,226,0,0" VerticalAlignment="Top" Height="46" Width="209" FontSize="24"/>
+        <TextBlock x:Name="Role" HorizontalAlignment="Center" Margin="0,295,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="48" Width="318" FontSize="24"/>
+        <Label Content="Ваша роль:" HorizontalAlignment="Left" Margin="10,290,0,0" VerticalAlignment="Top" Height="46" Width="209" FontSize="24"/>
+
+    </Grid>
+</Page>

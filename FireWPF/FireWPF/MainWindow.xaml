@@ -1,0 +1,13 @@
+﻿<Window x:Class="FireWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FireWPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid x:Name="LogOn" Background="#e8e8e8">
+        <Button Content="Регистрация" HorizontalAlignment="Left" Margin="599,10,0,0" VerticalAlignment="Top" Height="37" Width="169" FontSize="16" Background="White" Name="ButtonLogOn" Click="Button_LogOn"/>
+        <Frame x:Name="Frame1" Grid.Row="1"></Frame>
+    </Grid>
+</Window>
